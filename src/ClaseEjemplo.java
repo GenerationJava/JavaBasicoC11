@@ -4,6 +4,17 @@ import java.util.Scanner;
 // Declaración de la clase ClaseEjemplo, lleva un modificador de acceso, la palabra reservada class y el nombre de la clase
 public class ClaseEjemplo {
 
+    public int sumar(int numA, int numB) {
+        int resultado = numA + numB;
+        return resultado;
+    }
+
+    public static int resta(int numA, int numB) {
+        int resultado = numA - numB;
+        return resultado;
+    }
+
+
     // El método main es el punto de entrada a nuestro programa
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -20,7 +31,8 @@ public class ClaseEjemplo {
 
         int edad = sc.nextInt();
         sc.nextLine();
-        System.out.println("Te llamas " + nombre + ", tu edad es " + edad);
+        System.out.println("Te llamas "
+                            + nombre + ", tu edad es " + edad);
 
         System.out.println("Ingresa tu apellido");
         String apellido = sc.nextLine();

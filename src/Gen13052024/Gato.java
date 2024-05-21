@@ -76,10 +76,16 @@ public class Gato {
 
 
     /**MÉTODO TO-STRING*/
+    //Anotación que sobrescribe el método toString para que funcione de la manera en que estamos declarando
     @Override
     public String toString() {
         return "Gato{" +
-                "nombre='" + nombreGato + '\'' +
+                "nombreGato='" + nombreGato + '\'' +
+                ", edadGato=" + edadGato +
+                ", estaCastrado=" + estaCastrado +
+                ", colorGato='" + colorGato + '\'' +
                 '}';
     }
+
+
 }
